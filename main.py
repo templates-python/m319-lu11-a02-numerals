@@ -31,7 +31,8 @@ def read_int(prompt):
     """
 
     '''
-    Verwende deine Funktion zum Lesen von Ganzzahlen aus einem früheren Programm
+    Du könntest deine Funktion zum Lesen von Ganzzahlen aus einem früheren Programm (LU 10)
+    verwenden. Du könntest diese importieren oder hierhin kopieren.
     Ergänze eine Bedingung, dass die Zahl positiv sein muss (grösser 0)
     '''
     pass
