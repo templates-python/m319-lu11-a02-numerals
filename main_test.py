@@ -20,7 +20,7 @@ def test_read_int(capsys, monkeypatch):
     result = main.read_int('')
     assert result == 5
     captured = capsys.readouterr()
-    assert captured.out == 'Gib eine positive Ganzzahl ein\nGib eine positive Ganzzahl ein\n'
+    assert captured.out == 'Please, enter a whole number!\nPlease, enter a number greater than or equal to 0\n'
 
 
 def test_convert(capsys):
@@ -50,7 +50,7 @@ def test_not_a_number(capsys, monkeypatch):
     monkeypatch.setattr('builtins.input', lambda _: next(inputs))
     main.main()
     captured = capsys.readouterr()
-    assert captured.out == "Gib eine positive Ganzzahl ein\nA entspricht 1\n"
+    assert captured.out == "Please, enter a whole number!\nA entspricht 1\n"
 
 
 def test_negative_number(capsys, monkeypatch):
@@ -58,7 +58,7 @@ def test_negative_number(capsys, monkeypatch):
     monkeypatch.setattr('builtins.input', lambda _: next(inputs))
     main.main()
     captured = capsys.readouterr()
-    assert captured.out == 'Gib eine positive Ganzzahl ein\nA entspricht 1\n'
+    assert captured.out == 'Please, enter a number greater than or equal to 0\nA entspricht 1\n'
 
 
 '''
