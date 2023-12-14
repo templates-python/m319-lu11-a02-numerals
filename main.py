@@ -29,16 +29,23 @@ def read_int(prompt):
     :param prompt:
     :return: number
     """
-    number = None
-    while number is None:
+
+    while True:
         try:
-            number = int(input(f'{prompt} > '))
-            if number < 0:
-                print('Gib eine positive Ganzzahl ein')
-                number = None
+            num = int(input(prompt))
         except ValueError:
-            print('Gib eine positive Ganzzahl ein')
-    return number
+            print("Please, enter a whole number!")
+            continue
+        else:
+            if num < 0:
+                print("Please, enter a number greater than or equal to", 0)
+                continue
+            return num
+    '''
+    # Alternative Lösung:
+    from input_reader import read_int
+    return read_int(prompt, 0)
+    '''
 
 
 def convert(letters, numeral_dict):
