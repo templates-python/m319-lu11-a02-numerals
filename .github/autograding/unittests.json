@@ -1,0 +1,26 @@
+[
+  {
+    "name": "test_roman",
+    "function": "test_roman",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_assyrian",
+    "function": "test_assyrian",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_not_a_number",
+    "function": "test_not_a_number",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_negative_number",
+    "function": "test_negative_number",
+    "timeout": 10,
+    "points": 1
+  }
+]
