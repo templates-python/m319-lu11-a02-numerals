@@ -1,0 +1,44 @@
+[
+  {
+    "name": "test_read_numerals",
+    "function": "test_read_numerals",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_read_int",
+    "function": "test_read_int",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_convert",
+    "function": "test_convert",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_roman",
+    "function": "test_roman",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_assyrian",
+    "function": "test_assyrian",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_not_a_number",
+    "function": "test_not_a_number",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_negative_number",
+    "function": "test_negative_number",
+    "timeout": 10,
+    "points": 1
+  }
+]
