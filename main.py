@@ -32,7 +32,9 @@ def read_int(prompt):
 
     '''
     Du könntest deine Funktion zum Lesen von Ganzzahlen aus einem früheren Programm (LU 10)
-    verwenden. Du könntest diese importieren oder hierhin kopieren.
+    verwenden. Du könntest diese importieren (from xx import read_int as my_read_int) 
+    und dann hier ihre my_read_int aufrufen mit dem min_value von 0
+    oder sie kopieren den Inhalt von read_int hierhin und passen Sie den min_value mit 0 an.
     Ergänze eine Bedingung, dass die Zahl positiv sein muss (grösser 0)
     '''
     pass
