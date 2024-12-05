@@ -3,6 +3,7 @@ def main():
     main program
     :return: None
     """
+    # Die Main-Funktion ist bereits komplett und muss nicht angepasst werden.
     numerals = dict()
     read_numerals(numerals)
     letters = input('Schriftzeichen > ')
