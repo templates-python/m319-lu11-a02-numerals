@@ -9,7 +9,7 @@ def test_read_numerals(capsys, monkeypatch):
     inputs = iter(['L', '1', 'C', '12', '§'])
     monkeypatch.setattr('builtins.input', lambda _: next(inputs))
     monkeypatch.setattr(main, 'read_int', dummy_read_int)
-    result = dict()
+    result = {}
     main.read_numerals(result)
     assert result == {'L': 1, 'C': 12}
 
